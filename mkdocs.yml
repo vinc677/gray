@@ -1,11 +1,38 @@
-site_name: My Gray
+site_name: Arion64
 site_url: https://mydomain.org/mysite
 
 
 theme:
   name: material
   
-  theme:
+  palette:
+    scheme: default
+    primary: cyan
+    accent: cyan
+
   features:
+    - navigation.footer
     - navigation.instant
-    - navigation.instant.progress 
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - header.autohide
+    - navigation.instant
+    - navigation.instant.progress
+
+nav:
+ - Biografia/bio.md
+ - Documentazione:
+    - Documentazione/docu.md
+    - Documentazione/gr01.md
